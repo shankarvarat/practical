@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "67c0a3a0-54a2-4205-bc5f-8c20fa67e17a",
+		"name": "practical",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "19598458"
+	},
+	"item": [
+		{
+			"name": "add / edit question",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": \"6371f343e7b54b5833784c36\",\r\n    \"question_title\" : \"2 + 2 = ??\",\r\n    \"answer_options\":[\r\n    {\r\n    \"id\":114 ,\r\n    \"value\": 5,\r\n    \"is_correct_answer\": false,\r\n    \"is_deleted\":false\r\n    }\r\n  \r\n    ]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/question/post"
+			},
+			"response": []
+		}
+	]
+}
